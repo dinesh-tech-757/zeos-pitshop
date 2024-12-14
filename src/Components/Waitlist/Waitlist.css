@@ -1,0 +1,168 @@
+.wait-1{
+    background-color: rgb(233, 45, 45);
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.wait-1 h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.wait-1 h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.wait-2{
+    display: flex;justify-content: space-between;
+    padding: 50px 50px;
+}
+.wait-2-1 h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.wait-2-1 button{
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(233, 45, 45);
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.wait-2-1 h2{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.wait-2-2{
+    background-color: lightgrey;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.wait-2-2 form h1{
+    font-weight: 500;
+    padding-left: 10px;
+    border-left: 3px solid rgb(241, 61, 61);
+}
+.wait-2-2 form li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4px 0;
+    height: 60px;
+    list-style-type: none;
+    padding-left: 10px;
+    border-left: 3px solid rgb(241, 61, 61);
+}
+.wait-2-2 form li label{
+    font-size: 18px;
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.wait-2-2 form li button{
+    border: none;
+    background-color: rgb(34, 172, 34);
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.wait-2-2 form li input{
+    outline: none;
+    border: navajowhite;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .wait-1{
+        background-color: rgb(233, 45, 45);
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .wait-1 h1{
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    .wait-1 h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .wait-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+    .wait-2-1 h1{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .wait-2-1 button{
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(233, 45, 45);
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+    .wait-2-1 h2{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .wait-2-2{
+        background-color: lightgrey;
+        padding: 20px 10px;
+        border-radius: 10px;
+    }
+    .wait-2-2 form h1{
+        font-weight: 500;
+        font-size: 24px;
+        padding-left: 10px;
+        border-left: 3px solid rgb(241, 61, 61);
+    }
+    .wait-2-2 form li{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4px 0;
+        height: 60px;
+        list-style-type: none;
+        padding-left: 10px;
+        border-left: 3px solid rgb(241, 61, 61);
+    }
+    .wait-2-2 form li label{
+        font-size: 18px;
+        width: 100px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .wait-2-2 form li button{
+        border: none;
+        background-color: rgb(34, 172, 34);
+        padding: 10px 30px;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .wait-2-2 form li input{
+        outline: none;
+        border: navajowhite;
+        background: transparent;
+        border-bottom: 1px solid black;
+    }
+}

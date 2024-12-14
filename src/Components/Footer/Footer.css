@@ -1,0 +1,113 @@
+.foot-1 div p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.foot-1 div h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: red;
+}
+i{
+    color: #fff;
+    margin-right: 10px;
+}
+input{
+    padding: 10px 5px;
+    margin: 10px 0;
+}
+.foot-1 div button{
+    border: none;
+    background-color: red;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px 0;
+}
+.foot-1 {
+    background: #01031d;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.foot1 img{
+    height: 150px;
+    width: 150px;
+}
+.foot-1 div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.foot-2{
+    background-color: rgb(221, 61, 61);
+    text-align: center;
+    color: #fff;
+    padding: 3px 0;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .foot-1{
+        padding: 10 5px;
+        flex-wrap: wrap;
+    }
+    .foot1{
+        width: 50%;
+    }
+    .foot1 div img{
+        display: none;
+        margin: 0;
+        height: 80px;
+        width: 80px;
+    }
+    .foot1 div h1{
+        margin: 0;
+        font-size: 14px;
+    }
+    .foot1 div h1 i{
+        margin-right: 5px;
+    }
+    .foot1 div p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .foot2 div{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .foot2 div h1{
+        font-size: 14px;
+        margin: 0;
+    }
+    .foot2 div p{
+        margin: 3px 0;
+        padding: 0;
+        font-size: 10px;
+    }
+    .foot3 div h1{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .foot3 div p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .foot3 div input{
+        display: inline;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 5px 5px;
+    }
+    .foot3 div button{
+        padding: 5px 0;
+    }
+    .foot-2 div p{
+        font-size: 10px;
+    }
+}

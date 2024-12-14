@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Section 1 */
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.one-1 {
+    margin-left: 50px;
+}
+.one-1 h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.one-1 button{
+    border: none;
+    background-color: rgb(216, 71, 71);
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 8px 20px;
+}
+.one-1 span{
+    color: red;
+    border-bottom: 3px solid black;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    .one .one-2 img{
+        height: 100px;
+    }
+    .one .one-1{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .one .one-1 h1{
+        font-size: 22px;
+    }
+    .one .one-1 button{
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+}
+
+
+
+/* Section-2 */
+.two-1{
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(216, 71, 71);
+    border-radius: 30px;
+    color: #fff;
+}
+.two-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+.two-2 div{
+    width: 400px;
+}
+.two-2-1{
+    background-color: aliceblue;
+    /* margin-right: 10px; */
+    border: 2px solid rgb(216, 71, 71);
+    border-radius: 20px;
+    padding: 20px;
+}
+.two-2-1-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+.two-2-1-1 i{
+    color: green;
+}
+.two-2-1-1-1 p{
+    font-size: 22px;
+    font-weight: 500;
+    background-color: rgb(216, 71, 71);
+    text-align: center;
+    color: #fff;
+    padding: 15px 15px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.two-2-1span{
+    font-size: 20px;
+    margin: 0 10px;
+    color: gray;
+}
+.two-2-2span{
+    color: rgb(216, 71, 71);
+}
+.two-2-2{
+    background-color: aliceblue;
+    border: 2px solid rgb(216, 71, 71);
+    border-radius: 20px;
+    padding: 20px;
+}
+.two-2-2 p{
+    margin-top: 10px;
+}
+.two-2-2 i{
+    color: green;
+}
+/* Media Query */
+@media (max-width: 768px) {
+    .two-2{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    .two-2 div{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .two-1{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+}
+
+
+/* Section-3 */
+.three{
+    align-items: center;
+    text-align: center;
+    background: rgb(216, 71, 71);
+    color: #fff;
+}
+.three-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.three-1{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.three-1 h1{
+    font-size: 28px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+}
+.three-3 div{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    height: 300px;
+    width: 300px;
+}
+.three-3 div h1{
+    border-bottom: 2px solid #fff;
+}
+.three-3 div p{
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+/* Media Query */
+@media (max-width: 768px) {
+    .three-1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .three-1 p{
+        font-size: 14px;
+        text-align: left;
+    }
+    .three-3 div{
+        padding: 10px 10px;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .three-3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 40px;
+        padding-bottom: 50px;
+    }
+    .three-3 div h1{
+        font-size: 22px;
+        display: inline;
+        border-bottom: 3px solid #fff;
+    }
+    .three-3 div p{
+        margin-top: 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+/* Section-4 */
+.four{
+    border-bottom: 20px solid rgb(216, 71, 71);
+}
+.four-1{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.four-1-1 img{
+    width: 600px;
+}
+.four-1-2{
+    padding: 0 40px;
+}
+.four-1-2 h1{
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 3px solid rgb(216, 71, 71);
+    font-size: 25px;
+    font-weight: 500;
+}
+.four-1-2 p{
+    letter-spacing: 0.5px;
+}
+.four-1-2 p span{
+    border-bottom: 2px solid rgb(216, 71, 71);
+    font-size: 18px;
+    font-weight: 600;
+}
+.four-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four-2 .four-2-1 img{
+    width: 200px;
+}
+.four-2 .four-2-1{
+    margin-right: 50px;
+}
+.four-2 .four-2-2 h3{
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(216, 71, 71);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.four-2 .four-2-2 p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.four-3{
+    display: flex;
+    justify-content: flex-start;
+}
+.four-3 div {
+    background-color: aliceblue;
+    border-left: 5px solid rgb(216, 71, 71);
+    padding: 20px;
+    margin: 40px 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.four-3 img{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+.four-3 div h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.four-3 div p{
+    font-size: 12px;
+}
+/* Media Query */
+@media (max-width: 768px) {
+    .four-1{
+        display: block;
+    }
+    .four-1-1 img{
+        width: 380px;
+    }
+    .four-1-2{
+        margin-top: 10px;
+        padding: 0;
+    }
+    .four-1-2 h1{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .four-1-2 p{
+        font-size: 12px;
+    }
+    .four-1-2 p span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .four-2{
+        margin: 0 10px;
+        justify-content: space-around;
+    }
+    .four-2 .four-2-1 img{
+        margin: 0;
+        width: 100px;
+    }
+    .four-2 .four-2-1{
+        margin-right: 0px;
+    }
+    .four-2 .four-2-2 h3{
+        font-size: 16px;
+        padding: 5px 10px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .four-2 .four-2-2 p{
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    .four-3{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .four-3 div {
+        background-color: aliceblue;
+        border-left: 5px solid rgb(216, 71, 71);
+        padding: 10px 20px;
+        margin: 40px 20px;
+    }
+    .four-3 img{
+        height: 40px;
+        width: 40px;
+    }
+    .four-3 div h5{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .four-3 div p{
+        font-size: 10px;
+    }
+}
+
+
+/* Section-5 */
+.five-1{
+    text-align: center;
+    margin-top: 50px;
+}
+.five-1 h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.five-1 p{
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.five-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.five-2 div{
+    margin-top: 50px;
+    width: 300px;
+}
+.five-2 div img{
+    height: 250px;
+    width: 300px;
+}
+.five-2 div h1{
+    color: rgb(216, 71, 71);
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.five-2 div p{
+    word-spacing: 3px;
+}
+.five-2 div button{
+    margin: 20px 0 0 0;
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(216, 71, 71);
+}
+.five-2 div button i{
+    color: rgb(216, 71, 71);
+    margin-left: 10px;
+}
+.five-3{
+    text-align: center;
+}
+.five-3 button{
+    color: #fff;
+    background-color: rgb(243, 56, 56);
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 50px 0;
+}
+/* Media Query */
+@media (max-width: 768px) {
+    .five-1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .five-1 h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .five-1 p{
+        text-align: left;
+        padding: 0 30px;
+        margin-top: 0px;
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .five-2{
+        display: block;
+    }
+    .five-2 div{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .five-2 div img{
+        margin-top: 20px;
+        height: 200px;
+        width: 350px;
+    }
+    .five-2 div h1{
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .five-2 div p{
+        font-size: 14px;
+        word-spacing: 2px;
+    }
+    .five-2 div button{
+        margin: 5px 0 0 0;
+        font-size: 13px;
+    }
+    .five-3 button{
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 30px 0;
+    }    
+}
