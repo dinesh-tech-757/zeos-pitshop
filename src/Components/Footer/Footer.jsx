@@ -7,7 +7,7 @@ const Footer = () => {
       <section className="foot-1">
         <section className="foot1">
           <div>
-            <img src="../../src/assets/logo2.png" alt="" />
+            <img src="./public/logo2.png" alt="" />
           </div>
           <div>
             <h1><i class="fa-solid fa-location-dot"></i>ADDRESS</h1>

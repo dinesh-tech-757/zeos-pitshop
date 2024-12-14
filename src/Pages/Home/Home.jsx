@@ -14,7 +14,7 @@ const Home = () => {
         </div>
 
         <div className="one-2">
-          <img src="../../src/assets/banner1.jpg" alt="Banner" />
+          <img src="./public/banner1.jpg" alt="Banner" />
         </div>
       </section>
 
@@ -75,7 +75,7 @@ const Home = () => {
       <section className="four">
         <div className="four-1">
           <div className="four-1-1">
-            <img src="../../src/assets/banner2.jpg" alt="Shop image" />
+            <img src="./public/banner2.jpg" alt="Shop image" />
           </div>
 
           <div className="four-1-2">
@@ -92,7 +92,7 @@ const Home = () => {
 
         <div className="four-2">
           <div className="four-2-1">
-            <img src="../../src/assets/logo2.png" alt="" />
+            <img src="./public/logo2.png" alt="" />
           </div>
 
           <div className="four-2-2">
@@ -105,19 +105,19 @@ const Home = () => {
 
         <div className="four-3">
           <div>
-          <img src="../../src/assets/user.svg" alt="" />
+          <img src="./public/user.svg" alt="" />
             <h5>Jebaraj</h5>
             <p>Mechanic</p>
             <p>7 +years Exp</p>
           </div>
           <div>
-          <img src="../../src/assets/user.svg" alt="" />
+          <img src="./public/user.svg" alt="" />
             <h5>Daniel Raj</h5>
             <p>Mechanic</p>
             <p>6 +years Exp</p>
           </div>
           <div>
-            <img src="../../src/assets/user.svg" alt="" />
+            <img src="./public/user.svg" alt="" />
             <h5>David Raj</h5>
             <p>Mechanic</p>
             <p>4 +years Exp</p>
@@ -135,7 +135,7 @@ const Home = () => {
 
         <div className="five-2">
           <div>
-            <img src="../../src/assets/service1.jpg" alt="" />
+            <img src="./public/service1.jpg" alt="" />
             <h1>DOOR STEP SERVICE</h1>
             <p>Be it on the road or off the road, we are always ready to help you out. We pick your
               two-wheelers from your house, fix it like new, and deliver it to your place again so
@@ -143,20 +143,20 @@ const Home = () => {
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div>
-            <img src="../../src/assets/service2.jpg" alt="" />
+            <img src="./public/service2.jpg" alt="" />
             <h1>NO LONG QUEUES NOW</h1>
             <p>You don’t have to wait because we won’t make you wait. Our skilled force guarantees
               speedy servicing.</p>
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div>
-            <img src="../../src/assets/service3.jpeg" alt="" />
+            <img src="./public/service3.jpeg" alt="" />
             <h1>ON ROAD BREAK-DOWN SUPPORT</h1>
             <p>Be it anywhere anytime. We are always there to fix it up for you.</p>
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div>
-            <img src="../../src/assets/service4.jpg" alt="" />
+            <img src="./public/service4.jpg" alt="" />
             <h1>TIMELY SERVICE REMINDER</h1>
             <p>We always remind you to keep your two-wheelers in check.</p>
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>
