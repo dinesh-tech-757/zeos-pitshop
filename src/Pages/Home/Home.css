@@ -117,8 +117,7 @@
 /* Media Query */
 @media (max-width: 768px) {
     .two-2{
-        display: flex;
-        flex-direction: column;
+        display: block;
         margin: 20px 30px;
     }
     .two-2 div{
@@ -193,8 +192,7 @@
         margin-bottom: 10px;
     }
     .three-3{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
         margin-right: 15px;
         margin-left: 15px;
         margin-top: 40px;
@@ -441,7 +439,8 @@
         margin-bottom: 0px;
     }
     .five-2{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     .five-2 div{
         margin-top: 10px;
