@@ -15,6 +15,9 @@
 .h1-navbar a i {
     margin-right: 8px;
 }
+#nav-close{
+    display: none;
+}
 
 
 .h2-navbar a:first-child{
@@ -42,28 +45,47 @@ nav{
     top: 0;
 
 }
-
-nav .nav-1 img{
+.nav-1 img{
     height: 80px;
     width: 80px;
     margin-left: 20px;
 }
 
-nav .nav-2 ul{
+.nav-2 ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-nav .nav-2 ul li{
-    margin-left: 20px;
-    margin-right: 30px;
+.nav-2 ul li{
+    padding: 0 30px;
     font-size: 20px;font-weight: 400;
+    position: relative;
+}
+.nav-2 ul li a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+.nav-2 ul li a:hover{
+    color: rgb(216, 71, 71);
+}
+.nav-2 ul li a:hover::after,
+.nav-2 ul li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(216, 71, 71);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.nav-2 ul li a.active{
+    color: rgb(216, 71, 71);
 }
 nav i{
     color: #000;
-}
-nav .nav-2 ul li:hover{
-    color: rgb(216, 71, 71);
-    border-bottom: 3px solid rgb(216, 71, 71);
 }
 
 
@@ -114,6 +136,12 @@ nav .nav-2 ul li:hover{
         font-size: 11px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+    #nav-close{
+        display: block;
+    }
+    #nav-menu{
+        display: none;
     }
 
 }

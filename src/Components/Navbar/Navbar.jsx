@@ -18,17 +18,17 @@ const Navbar = () => {
 
     <nav>
         <div className="nav-1">
-            <img src="./logo2.png" alt="logo" />
+            <a href="index.html"><img src="./logo2.png" alt="logo" /></a>
         </div>
 
         <div className="nav-2">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" className='active'>Home</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Become Partner</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                {/* <li><a href="#"><i class="fa-solid fa-bars"></i></a></li> */}
             </ul>
         </div>
     </nav>
