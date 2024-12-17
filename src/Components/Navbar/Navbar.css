@@ -1,4 +1,7 @@
- 
+ li{
+    list-style-type: none;
+ }
+
 .h-navbar{
     display: flex;
     justify-content: space-between;
@@ -14,9 +17,6 @@
 }
 .h1-navbar a i {
     margin-right: 8px;
-}
-#nav-close{
-    display: none;
 }
 
 
@@ -45,44 +45,45 @@ nav{
     top: 0;
 
 }
-.nav-1 img{
+
+nav .nav-1 img{
     height: 80px;
     width: 80px;
     margin-left: 20px;
 }
 
-.nav-2 ul{
+nav .nav-2 ul{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.nav-2 ul li{
-    padding: 0 30px;
-    font-size: 20px;font-weight: 400;
+nav .nav-2 ul li{
+    padding: 0 20px;
     position: relative;
+    
 }
-.nav-2 ul li a{
+nav .nav-2 ul li a{
     font-size: 22px;
     font-weight: 500;
-    color: #000;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
+
 }
-.nav-2 ul li a:hover{
-    color: rgb(216, 71, 71);
+nav .nav-2 ul li a:hover{
+    color: rgb(228, 61, 61);
 }
-.nav-2 ul li a:hover::after,
-.nav-2 ul li a.active::after{
+nav .nav-2 ul li a:hover::after,
+nav .nav-2 ul li a.active::after{
     content: "";
     width: 30%;
     height: 2px;
-    background: rgb(216, 71, 71);
+    background: rgb(228, 61, 61);
     position: absolute;
     bottom: -4px;
     left: 20px;
 }
-.nav-2 ul li a.active{
-    color: rgb(216, 71, 71);
+nav .nav-2 ul li a.active{
+    color: rgb(228, 61, 61);
 }
 nav i{
     color: #000;
@@ -134,14 +135,10 @@ nav i{
     }
     nav .nav-2 ul li{
         font-size: 11px;
-        margin-left: 5px;
-        margin-right: 5px;
+        padding: 0 5px;
     }
-    #nav-close{
-        display: block;
-    }
-    #nav-menu{
-        display: none;
+    nav .nav-2 ul li a{
+        font-size: 12px;
     }
 
 }

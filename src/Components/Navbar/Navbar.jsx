@@ -28,9 +28,9 @@ const Navbar = () => {
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Become Partner</a></li>
                 <li><a href="#">Contact</a></li>
-                {/* <li><a href="#"><i class="fa-solid fa-bars"></i></a></li> */}
             </ul>
         </div>
+
     </nav>
     </>
   )
