@@ -18,7 +18,7 @@ const Navbar = () => {
 
     <nav>
         <div className="nav-1">
-            <img src="./public/logo2.png" alt="logo" />
+            <img src="./logo2.png" alt="logo" />
         </div>
 
         <div className="nav-2">
