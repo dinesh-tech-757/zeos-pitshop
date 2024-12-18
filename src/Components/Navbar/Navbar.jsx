@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import navlogo from "../../assets/logo2.png"
 
 const Navbar = () => {
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
 
     <nav>
         <div className="nav-1">
-            <a href="index.html"><img src="./logo2.png" alt="logo" /></a>
+            <a href="index.html"><img src={navlogo} alt="logo" /></a>
         </div>
 
         <div className="nav-2">

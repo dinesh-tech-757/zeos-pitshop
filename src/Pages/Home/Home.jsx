@@ -1,5 +1,14 @@
 import React from "react";
 import "./Home.css";
+import banner1 from "../../assets/banner1.jpg"
+import banner2 from "../../assets/banner2.jpg"
+import logo from "../../assets/logo2.png"
+import cover from "../../assets/cover1.jpg"
+import service1 from "../../assets/service1.jpg"
+import service2 from "../../assets/service2.jpg"
+import service3 from "../../assets/service3.jpeg"
+import service4 from "../../assets/service4.jpg"
+import user from "../../assets/user.svg.jpg"
 
 const Home = () => {
   
@@ -15,7 +24,7 @@ const Home = () => {
         </div>
 
         <div className="one-2">
-          <img src="./banner1.jpg" alt="Banner" />
+          <img src={banner1} alt="Banner" />
         </div>
       </section>
 
@@ -76,7 +85,7 @@ const Home = () => {
       <section className="four">
         <div className="four-1">
           <div className="four-1-1">
-            <img src="./banner2.jpg" alt="Shop image" />
+            <img src={banner2} alt="Shop image" />
           </div>
 
           <div className="four-1-2">
@@ -93,7 +102,7 @@ const Home = () => {
 
         <div className="four-2">
           <div className="four-2-1">
-            <img src="./logo2.png" alt="" />
+            <img src={logo} alt="" />
           </div>
 
           <div className="four-2-2">
@@ -106,19 +115,19 @@ const Home = () => {
 
         <div className="four-3">
           <div>
-          <img src="./user.svg" alt="" />
+          <img src={user} alt="" />
             <h5>Jebaraj</h5>
             <p>Mechanic</p>
             <p>7 +years Exp</p>
           </div>
           <div>
-          <img src="./user.svg" alt="" />
+          <img src={user} alt="" />
             <h5>Daniel Raj</h5>
             <p>Mechanic</p>
             <p>6 +years Exp</p>
           </div>
           <div>
-            <img src="./user.svg" alt="" />
+            <img src={user} alt="" />
             <h5>David Raj</h5>
             <p>Mechanic</p>
             <p>4 +years Exp</p>
@@ -136,7 +145,7 @@ const Home = () => {
 
         <div className="five-2">
           <div>
-            <img src="./service1.jpg" alt="" />
+            <img src={service1} alt="" />
             <h1>DOOR STEP SERVICE</h1>
             <p>Be it on the road or off the road, we are always ready to help you out. We pick your
               two-wheelers from your house, fix it like new, and deliver it to your place again so
@@ -144,20 +153,20 @@ const Home = () => {
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div>
-            <img src="./service2.jpg" alt="" />
+            <img src={service2} alt="" />
             <h1>NO LONG QUEUES NOW</h1>
             <p>You don’t have to wait because we won’t make you wait. Our skilled force guarantees
               speedy servicing.</p>
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div>
-            <img src="./service3.jpeg" alt="" />
+            <img src={service3} alt="" />
             <h1>ON ROAD BREAK-DOWN SUPPORT</h1>
             <p>Be it anywhere anytime. We are always there to fix it up for you.</p>
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div>
-            <img src="./service4.jpg" alt="" />
+            <img src={service4} alt="" />
             <h1>TIMELY SERVICE REMINDER</h1>
             <p>We always remind you to keep your two-wheelers in check.</p>
               <button>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button>

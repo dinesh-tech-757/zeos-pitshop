@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import footlogo from "../../assets/logo2.png"
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <section className="foot-1">
         <section className="foot1">
           <div>
-            <img src="./logo2.png" alt="" />
+            <img src={footlogo} alt="" />
           </div>
           <div>
             <h1><i class="fa-solid fa-location-dot"></i>ADDRESS</h1>
@@ -56,7 +57,7 @@ const Footer = () => {
 
       <section className="foot-2">
         <div>
-          <p>Copyright 2024 © SpeedForce. All Rights Reserved</p>
+          <p>Copyright &copy; 2024 SpeedForce. All Rights Reserved</p>
         </div>
       </section>
     </>
